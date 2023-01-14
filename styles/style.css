@@ -1,0 +1,51 @@
+/* navigation styles */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-container ul {
+    list-style-type: none;
+
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Banner styles */
+
+.banner-header{
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+}
+.banner-discription{
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+.banner-button{
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: orange;
+    border: hidden;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    left: 46%;
+   
+}
+.banner-info img{
+    width: 1000px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
