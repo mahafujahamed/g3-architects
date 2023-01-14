@@ -49,3 +49,42 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Features styles */
+.features-head{
+    display: flex;
+    margin-top: 50px;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.features-info{
+   margin-top: 150px;
+   margin-left: 50px;
+}
+.features-title{
+    font-size: 45px;
+}
+.features-discription{
+    font-size: 16px;
+    color: #727272;
+    row-gap: 10px;
+}
+/* Some Facts */
+
+.fact{
+    display: inline-flexbox;
+   
+}
+
+/* Sponsor styles */
+
+.sponsor{
+    text-align: center;
+}
+.company img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
