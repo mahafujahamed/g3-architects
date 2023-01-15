@@ -219,12 +219,3 @@ footer{
     margin-bottom: 100px;
 }
 
-/* --------Mobile Responsive------- */
-
-@media only screen and (max-width:576px) {
-    .features-head{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-}
