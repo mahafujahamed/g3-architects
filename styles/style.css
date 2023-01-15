@@ -11,6 +11,16 @@
 
 
 }
+.navigation h1{
+    font-size: 40px;
+}
+.navigation{
+    margin-left: 250px;
+}
+.menu{
+    margin-right: 250px;
+    margin-top: 40px;
+}
 
 li {
     display: inline;
@@ -20,19 +30,29 @@ li {
 
 /* Banner styles */
 
-.banner-header{
+.header-color {
+    background: rgba(255, 144, 14, 0.1);
+    height: 138vh;
+}
+
+.banner-header {
     font-size: 64px;
     color: #131313;
     text-align: center;
+    margin-top: 30px;
 }
-.banner-discription{
+
+.banner-discription {
     font-size: 16px;
     color: #727272;
     text-align: center;
+   
 }
-.banner-button{
+
+.banner-button {
     color: #FFFFFF;
     font-size: 20px;
+    height: 60px;
     background-color: orange;
     border: hidden;
     border-radius: 8px;
@@ -40,51 +60,85 @@ li {
     margin: 0;
     position: absolute;
     left: 46%;
-   
+
 }
-.banner-info img{
-    width: 1000px;
+
+.banner-info img {
+    width: 1200px;
     height: 550px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 90px;
 }
 
 /* Features styles */
-.features-head{
+.features-head {
     display: flex;
     margin-top: 50px;
 }
-.features{
+
+.features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.features-info{
-   margin-top: 150px;
-   margin-left: 50px;
+
+.features-info {
+    margin-top: 150px;
+    margin-left: 50px;
 }
-.features-title{
+
+.features-title {
     font-size: 45px;
 }
-.features-discription{
+
+.features-discription {
     font-size: 16px;
     color: #727272;
     row-gap: 10px;
 }
+
+/* Blog styles */
+.blog-container {
+    display: flex;
+}
+
 /* Some Facts */
 
-.fact{
+.fact {
     display: inline-flexbox;
-   
+
+}
+
+.creative-button {
+   background-color: orange;
+    width: 150px;
+    height: 100px;
+    left: 880px;
+    text-align: center;
+    font-size: 28px;
+    color: #FFFFFF;
 }
 
 /* Sponsor styles */
 
-.sponsor{
+.sponsor {
     text-align: center;
 }
-.company img{
+
+.company img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+}
+
+/* Footer Style */
+.footer-color{
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 70px;
+   
 }
