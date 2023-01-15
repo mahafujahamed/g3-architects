@@ -13,7 +13,6 @@
 .nav-container ul {
     list-style-type: none;
 
-
 }
 .navigation h1{
     font-size: 40px;
@@ -25,7 +24,6 @@
     margin-right: 235px;
     margin-top: 40px;
 }
-
 li {
     display: inline;
     padding: 10px;
@@ -45,7 +43,6 @@ li {
     text-align: center;
     margin-top: 30px;
 }
-
 .banner-discription {
     font-size: 16px;
     color: #727272;
@@ -66,7 +63,6 @@ li {
     left: 46%;
 
 }
-
 .banner-info img {
     width: 1235px;
     height: 550px;
@@ -81,17 +77,15 @@ li {
     display: flex;
     margin-top: 50px;
 }
-
 .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-left: 220px;
 }
-
 .features-info {
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 .features-title {
@@ -110,9 +104,7 @@ li {
     width: 150px;
     height: 60px;
     border-radius: 8px;
-    border: hidden;
-    
-    
+    border: hidden;   
 }
 /* Fact style */
 .fact{
@@ -133,8 +125,7 @@ li {
     margin-left: 30px;
     border-left: 5px solid orange;
     height: 100px;
-    padding-left: 10px;
-    
+    padding-left: 10px;  
 }
 .blog-img img{
     height: 700px;
@@ -144,7 +135,6 @@ li {
    padding: 10px 5px 5px 10px;
    margin-right: 30px;
 }
-
 .blog-container {
     display: flex;
     gap: 90px;
@@ -158,17 +148,15 @@ li {
 
 /* Some Facts */
 .fact h1{
-    font-size: 45px;
+    font-size: 35px;
     color: #131313;
 }
-
 .fact {
     display: inline-flexbox;
-
 }
 .fact-border{
     border: 2px solid orangered;
-   
+    padding-top: 10px; 
 }
 .grid-fact {
     margin-top: 60px;
@@ -191,27 +179,23 @@ li {
     border-radius: 15px;
     border: hidden;
 }
-
 /* company styles */
 .company{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     mix-blend-mode: luminosity;
 }
-
 /* Sponsor styles */
 .sponsor h1{
-    font-size: 45;
+    font-size:35px;
     color: #131313;
 }
-
 .sponsor {
     text-align: center;
 }
 .sponsor p{
     font-size: 16px;
 }
-
 .company img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -220,7 +204,6 @@ li {
     margin-top: 20px;
     mix-blend-mode: luminosity;
 }
-
 /* Footer Style */
 .footer-color{
     padding-top:35px;
@@ -230,9 +213,18 @@ li {
     margin-left: 100px;
     margin-right: 100px;
     height: 50px;
-   
 }
 footer{
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+/* --------Mobile Responsive------- */
+
+@media only screen and (max-width:576px) {
+    .features-head{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
