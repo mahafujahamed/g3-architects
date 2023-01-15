@@ -114,6 +114,15 @@ li {
     
     
 }
+/* Fact style */
+.fact{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.grid-fact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
 /* Blog styles */
 .blog h1{
@@ -127,9 +136,13 @@ li {
     padding-left: 10px;
     
 }
+.blog-img img{
+    height: 700px;
+}
 #box-shadow{
    box-shadow: 20px 20px 50px 10px rgba(208, 201, 201, 0.929);
-   padding-left: 10px;
+   padding: 10px 5px 5px 10px;
+   margin-right: 30px;
 }
 
 .blog-container {
@@ -138,12 +151,30 @@ li {
     margin-top: 80px;
     margin-left: 80px;
 }
+/* Sponsor style */
+.sponsor{
+    margin-top: 100px;
+}
 
 /* Some Facts */
+.fact h1{
+    font-size: 45px;
+    color: #131313;
+}
 
 .fact {
     display: inline-flexbox;
 
+}
+.fact-border{
+    border: 2px solid orangered;
+   
+}
+.grid-fact {
+    margin-top: 60px;
+    column-gap: 30px;
+    text-align: center;
+  
 }
 .blog-img{
     margin-right: 100px;
@@ -151,25 +182,43 @@ li {
 
 .creative-button {
    background-color: orange;
-    width: 342px;
-    height: 200px;
-    margin-left: -100px;
+    width: 250px;
+    height: 180px;
+    margin-left: -80px;
     font-size: 50px;
     color: #FFFFFF;
-    margin-top: -900px;
+    margin-top: -1700px;
     border-radius: 15px;
     border: hidden;
 }
 
+/* company styles */
+.company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    mix-blend-mode: luminosity;
+}
+
 /* Sponsor styles */
+.sponsor h1{
+    font-size: 45;
+    color: #131313;
+}
 
 .sponsor {
     text-align: center;
+}
+.sponsor p{
+    font-size: 16px;
 }
 
 .company img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    mix-blend-mode: luminosity;
 }
 
 /* Footer Style */
@@ -182,4 +231,8 @@ li {
     margin-right: 100px;
     height: 50px;
    
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
